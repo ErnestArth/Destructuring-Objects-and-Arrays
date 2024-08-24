@@ -176,3 +176,9 @@ const updatedBook = {
   pages: 1200,
 };
 updatedBook;
+
+// Template literals
+const summary = `${title}, a ${pages}-page long book was written by ${author} and published in ${
+  publicationDate.split("-")[0]
+}. It belongs to the genres of ${genres.join(", ")}.`;
+summary;
